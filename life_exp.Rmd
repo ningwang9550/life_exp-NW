@@ -1,0 +1,11 @@
+---
+title: "life_exp"
+author: "Ning Wang"
+date: "2020/9/1"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
