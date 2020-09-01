@@ -29,3 +29,10 @@ gap_unfil %>%
   summarise(max(lifeExp)) 
 ```
 
+```{r}
+gap_unfil %>%
+  group_by(country) %>%
+  filter(year == 2000) %>%
+  summarise(mean(lifeExp))
+```
+
